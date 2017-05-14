@@ -1,12 +1,23 @@
 \documentclass[10pt, a4paper]{report}
 
 %used packages
+% To indent first paragraph in article
 \usepackage[]{indentfirst}
+%To make multicolumn list
+\usepackage{multicol}
+%To use graphics
+\usepackage{graphicx}
+%To make figures side by side
+\usepackage{caption}
+\usepackage{subcaption}
+%To include urls
+%\usepackage{hyperref}
 
+\graphicspath{{graphs/}}
 
 
 \author{Mahmoud Agha}
-\title{Pharma}
+\title{Pharmacokinetic Properties of Chlordiazepoxide, diazepam ,and lorazepam (Benzodiazepines)}
 
 \begin{document}
 \maketitle
@@ -22,7 +33,7 @@
 %Mecahnism of Action done
 \input{parts/mech.tex}
 %Site of Action done
-\input{parts/site.tex}
+%\input{parts/site.tex}
 %Pharmacokintics done
 \input{parts/pk.tex}
 %Metabolites needs chemical structure
