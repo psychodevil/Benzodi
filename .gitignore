@@ -3,7 +3,7 @@
 *.blg
 *.log
 *.toc
-*.pdf
+main.pdf
 *.swp
 .*
 *.out
